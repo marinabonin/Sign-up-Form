@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Neste projeto foi desenvolvida uma página de login e senha de usuário, utilizando comportamento de validação para formulários.
+Neste projeto foi desenvolvida uma página de criação de login e senha de um usuário, utilizando comportamento de validação para formulários.
 
 ## :memo: Licença
 
