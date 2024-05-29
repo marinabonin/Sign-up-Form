@@ -22,7 +22,7 @@ main {
 .container {
   max-width: 700px;
   width: 100%;
-  border-radius: 49.09px;
+  border-radius: 49px;
   background-color: #f6fbf9;
   text-align: center;
   padding: 67px 62px 82px;
@@ -31,31 +31,29 @@ main {
 .container__title {
   color: #212b27;
   font-family: Karla, sans-serif;
-  font-size: 55.226px;
+  font-size: 55px;
   font-weight: 700;
-  line-height: 71.794px;
+  line-height: 72px;
   padding-bottom: 6px;
 }
 
 .container__description {
-  /* max-width: 472px; */
-
   color: #32403b;
   font-family: Karla, sans-serif;
-  font-size: 21.477px;
-  line-height: 27.92px;
+  font-size: 22px;
+  line-height: 28px;
   padding: 0 51.5px 273px;
 }
 
 .container__button {
   border: none;
-  border-radius: 23.011px;
+  border-radius: 23px;
   background-color: #84c7ae;
   color: #fff;
   font-family: Karla, sans-serif;
-  font-size: 33.749px;
+  font-size: 34px;
   font-weight: 700;
-  line-height: 43.874px;
+  line-height: 44px;
   padding: 23px 72.8px;
   margin-bottom: 17px;
 }
@@ -67,10 +65,10 @@ main {
 
 .container__sign-in {
   color: #32403b;
-  font-family: Karla;
-  font-size: 21.477px;
+  font-family: Karla, sans-serif;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 27.92px;
+  line-height: 28px;
 }
 
 a {
