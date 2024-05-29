@@ -42,7 +42,7 @@ main {
   font-family: Karla, sans-serif;
   font-size: 22px;
   line-height: 28px;
-  padding: 0 51.5px 273px;
+  padding: 0 51.5px 49px;
 }
 
 .container__button {
@@ -73,4 +73,29 @@ main {
 
 a {
   color: #32403b;
+}
+
+input {
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Karla, sans-serif;
+  font-size: 23px;
+  line-height: 85px;
+  border-radius: 15px;
+  border: 1.6px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding-left: 33px;
+}
+
+input:valid {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+  border: 2px solid #f3541c;
+}
+
+.container__password {
+  margin: 23px 0 32px;
 }

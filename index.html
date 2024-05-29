@@ -19,7 +19,28 @@
         <p class="container__description">
           Create an account to enjoy all the services without any ads for free!
         </p>
-        <button class="container__button">Create Account</button>
+        <form>
+          <label
+            ><input
+              class="container__email"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+          /></label>
+          <label
+            ><input
+              class="container__password"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              minlength="4"
+              required
+          /></label>
+          <button class="container__button">Create Account</button>
+        </form>
         <p class="container__sign-in">
           Already Have An Account? <a href="#">Sign In</a>
         </p>
