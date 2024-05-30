@@ -42,7 +42,7 @@ main {
   font-family: Karla, sans-serif;
   font-size: 22px;
   line-height: 28px;
-  padding: 0 51.5px 273px;
+  padding: 0 51.5px 49px;
 }
 
 .container__button {
@@ -55,7 +55,7 @@ main {
   font-weight: 700;
   line-height: 44px;
   padding: 23px 72.8px;
-  margin-bottom: 17px;
+  margin: 32px 0 17px;
 }
 
 .container__button:hover {
@@ -73,4 +73,25 @@ main {
 
 a {
   color: #32403b;
+}
+
+input {
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Karla, sans-serif;
+  font-size: 23px;
+  line-height: 85px;
+  border-radius: 15px;
+  border: 1.6px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding-left: 33px;
+}
+
+input:invalid {
+  border: 2px solid #f3541c;
+}
+
+input + input {
+  margin-top: 23px;
 }
