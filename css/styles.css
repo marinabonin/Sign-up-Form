@@ -55,7 +55,7 @@ main {
   font-weight: 700;
   line-height: 44px;
   padding: 23px 72.8px;
-  margin-bottom: 17px;
+  margin: 32px 0 17px;
 }
 
 .container__button:hover {
@@ -88,14 +88,10 @@ input {
   padding-left: 33px;
 }
 
-input:valid {
-  border: 2px solid rgba(0, 0, 0, 0.1);
-}
-
 input:invalid {
   border: 2px solid #f3541c;
 }
 
-.container__password {
-  margin: 23px 0 32px;
+input + input {
+  margin-top: 23px;
 }
